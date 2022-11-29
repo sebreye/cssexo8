@@ -1,11 +1,36 @@
 span:nth-child(2){
     background-color: black;
     color: white;
+    display: flex;
     height: 100px;
     width: 300px;
 }
 li:nth-child(2n+1){
     list-style: none;
     color: white;
+}
+span:nth-child(3){
+    display: block;
+}
+strong{
+    display: block;
+}
+u{
+    display: block;
+}
+a{
+    display: block;
+}
+section:nth-child(5) div, section:nth-child(5) h5, section:nth-child(5) p{
+    display: inline-block;
+}
+section:nth-child(6) div>div:nth-child(1){
+    float: left;
+}
+section:nth-child(6) div>div:nth-child(2){
+    float: right;
+}
+section:nth-child(6) div>div:nth-child(3){
+    float: left;
 }
 
