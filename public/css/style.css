@@ -1,6 +1,11 @@
-h2~span{
+span:nth-child(2){
     background-color: black;
     color: white;
     height: 100px;
     width: 300px;
 }
+li:nth-child(2n+1){
+    list-style: none;
+    color: white;
+}
+
